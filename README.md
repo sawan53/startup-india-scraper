@@ -1,4 +1,6 @@
-# Startup India Lead Generation Scraper 🚀
+# startup-india-scraper | Startup India Lead Generation Scraper 
+
+A web scraper that scrapes startups from the official website of Startup India and stores the data in a csv file and json 
 
 An AI-powered automation tool to scrape startup data from [Startup India](https://www.startupindia.gov.in) for lead generation purposes.
 
