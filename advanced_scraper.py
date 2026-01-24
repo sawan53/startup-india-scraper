@@ -46,6 +46,27 @@ class AdvancedStartupScraper:
             time.sleep(2)
             
             # Click on filters if needed
+            # Extract startup details
+            startups = self.driver.find_elements(By.CSS_SELECTOR, "a[href*='/content/sih/en/profile.Startup']")
+            for startup in startups:
+                name = startup.text
+                link = startup.get_attribute('href')
+                self.driver.get(link)
+                time.sleep(2)
+                try:
+                    website = self.driver.find_element(By.CSS_SELECTOR, "a[href*='http']").get_attribute('href')
+                except NoSuchElementException:
+                    website = None
+                try:
+                    phone = self.driver.find_element(By.XPATH, "//div[contains(text(), 'Phone')]/following-sibling::div").text
+                except NoSuchElementException:
+                    phone = None
+                try:
+                    email = self.driver.find_element(By.XPATH, "//div[contains(text(), 'Email')]/following-sibling::div").text
+                except NoSuchElementException:
+                    email = None
+                self.startups_data.append({'name': name, 'website': website, 'phone': phone, 'email': email})
+                self.driver.back()
             # This is a placeholder - actual implementation depends on website structure
             print("Filters can be applied through URL parameters")
             
