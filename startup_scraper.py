@@ -1,6 +1,21 @@
 """
-Startup India Website Scraper
-Scrapes startup data from https://www.startupindia.gov.in for lead generation
+Indian Startup Scraper - Startup India Website Data Extraction Tool
+
+Scrapes Indian startup data from the official Startup India government portal
+(https://www.startupindia.gov.in) for lead generation, market research, and 
+business development purposes.
+
+This web scraping tool extracts:
+- Indian startup company names and profiles
+- Business stages and sectors
+- Location data (Indian cities and states)
+- Contact information
+- Profile URLs from startupindia.gov.in
+
+Perfect for: investors, researchers, business developers, and anyone building
+a database of Indian startup leads.
+
+Keywords: Indian startup scraper, Startup India data extraction, Indian startup leads
 """
 
 import time
